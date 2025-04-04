@@ -2,8 +2,6 @@
 
 A modern, responsive personal website showcasing my projects and professional journey
 
-![Website Preview](./Screenshot%202025-04-04%20150039.png)
-
 ## Features
 
 - 🎨 Modern and clean design
