@@ -1,0 +1,115 @@
+# Security sensitive files
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+*.p7b
+*.p7c
+*.p7m
+*.p7s
+*.p8
+*.p10
+*.p12
+*.pfx
+*.pem
+*.key
+*.crt
+*.csr
+*.cer
+*.der
+
+# Configuration files with sensitive data
+config.json
+secrets.json
+credentials.json
+.env
+.env.*
+!.env.example
+config.local.js
+config.local.json
+*.local.*
+
+# API keys and tokens
+api-keys.json
+tokens.json
+auth.json
+*.key
+*.token
+*.secret
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sql
+*.dump
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Dependency directories
+node_modules/
+bower_components/
+vendor/
+packages/
+
+# Build output
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.temp/
+tmp/
+temp/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Project specific
+coverage/
+.nyc_output/
+*.lcov
+*.map
+*.min.js
+*.min.css
