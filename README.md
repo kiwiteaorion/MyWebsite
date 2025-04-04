@@ -2,7 +2,7 @@
 
 A modern, responsive personal website showcasing my projects and professional journey
 
-![Website Preview](https://via.placeholder.com/800x400)
+![Website Preview](./Screenshot%202025-04-04%20150039.png)
 
 ## Features
 
