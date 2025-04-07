@@ -479,11 +479,12 @@ footer {
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 .project-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .project-image {
@@ -598,4 +599,15 @@ footer {
   .project-image {
     height: 180px;
   }
+}
+
+.project-status {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.8em;
+  background: #28a745;
+  color: white;
 }
